@@ -1,0 +1,185 @@
+body {
+    background: #ffc425;
+    margin:0;
+    font-size: 30px;
+}
+header{
+    background: #00aedb;
+    color:#d11141;
+    text-align:center;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #d11141;
+    border-bottom-color:#999898;
+}
+img{
+	padding: 1em 0 1em 0;
+	max-width: 90%;
+}
+section{
+    background:#ffc425;
+}
+article{
+    background: #00b159;
+    border: .1em black solid;
+}
+p{
+    font-size: large;
+    font-family: monospace;
+}
+div{
+    background: #00aedb;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e8c66a;
+    font-family: arial, sans-serif;
+}
+a{
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: .3em;
+    width: 24%;
+    font-size: .8em;
+}
+a:hover{
+    background-color: #aaaaaa;
+}
+#chump1 {
+    background-color: #ffc425;
+    border: .1em black solid;
+    padding: 1em 0 0 1em;
+    float: left;
+    width: 30%;
+    margin-left: .3em;
+}
+#chump2{
+    background-color: #f37735;
+    border: .1em black solid;
+    padding: 1em 0 0 1em;
+    float: left;
+    width: 30%;
+    margin-left: .3em;
+}
+#chump3{
+    background-color: #ffc425;
+    border: .1em black solid;
+    padding:1em 0 0 1em;
+    float: left;
+    width: 30%;
+    margin-left: .3em;
+}
+#chump4 {
+    background-color: #ffc425;
+    border: .1em black solid;
+    padding: 1em 0 0 1em;
+    float: left;
+    width: 30%;
+    margin-left: .3em;
+}
+#slogan {
+	font-style: italic;
+	font-size: .5em;
+	color: #e4007d;
+    outline-width: 1.5em;
+    padding:.25em .75em .25em .75em;
+}
+#footer {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Coda', cursive;
+    color:red;
+    font-size: .5em;
+    margin: auto;
+    text-align: center;
+    border: .2em black solid;
+}
+#abouttext{
+    font-size: .5em;
+    color: red;
+    max-width: 70%;
+    padding: .25em .5em 1em 1em;
+}
+#one img {
+	width:100%;
+    height:14.2em;
+}
+#two img{
+    width:5.65em;
+    height:8.2em;
+    padding: 1em 5em .25em 2em;
+    float: left;
+}
+.clearfix{
+    overflow: auto;
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+@media only screen and (max-width: 800px) {
+  nav {
+    float: left;
+  }
+  nav a {
+      display:block;
+       width:100vw;
+       float: none;
+   }
+  img {
+    width: 80%;
+  }
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+  #chump1, #chump2, #chump3 {
+    float:none;
+    width:100vw;
+  }
+}
+@media only screen and (max-width: 380px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+   nav a {
+      margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+}
